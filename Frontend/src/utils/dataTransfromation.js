@@ -1,14 +1,14 @@
-import noPriority from '../assets/pictures/icons/No_priority.svg';
-import lowPriority from '../assets/pictures/icons/Img_LowPriority.svg';
-import mediumPriority from '../assets/pictures/icons/Img_MediumPriority.svg';
-import highPriority from '../assets/pictures/icons/Img_Highpriority.svg';
-import urgentPriority from '../assets/pictures/icons/SVG_UrgentPrioritycolour.svg';
-import inProgress from '../assets/pictures/icons/in_progress.svg';
-import todo from '../assets/pictures/icons/To_do.svg';
-import backlog from '../assets/pictures/icons/Backlog.svg';
-import cancelled from '../assets/pictures/icons/Cancelled.svg';
-import done from '../assets/pictures/icons/done.svg';
-import profileImg from '../assets/pictures/profile.jpg';
+import noPriority from '@/assets/pictures/icons/No_priority.svg';
+import lowPriority from '@/assets/pictures/icons/Img_LowPriority.svg';
+import mediumPriority from '@/assets/pictures/icons/Img_MediumPriority.svg';
+import highPriority from '@/assets/pictures/icons/Img_Highpriority.svg';
+import urgentPriority from '@/assets/pictures/icons/SVG_UrgentPrioritycolour.svg';
+import inProgress from '@/assets/pictures/icons/in_progress.svg';
+import todo from '@/assets/pictures/icons/To_do.svg';
+import backlog from '@/assets/pictures/icons/Backlog.svg';
+import cancelled from '@/assets/pictures/icons/Cancelled.svg';
+import done from '@/assets/pictures/icons/done.svg';
+import profileImg from '@/assets/pictures/profile.jpg';
 
 const imageObject = {
   'Priority': {
