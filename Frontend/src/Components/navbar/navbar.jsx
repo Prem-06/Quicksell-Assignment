@@ -26,7 +26,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {showOption ? <DisplayOption setshowOption={setshowOption} showOption={showOption} /> : null}
+      {showOption ? <DisplayOption /> : null}
     </div>
   );
 };

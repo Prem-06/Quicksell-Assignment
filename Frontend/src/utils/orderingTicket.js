@@ -1,4 +1,5 @@
 function orderTicket(groupedData, orderby) {
+  
   if (orderby === "Title") {
     return orderByTitle(groupedData);
   } else {
@@ -14,6 +15,7 @@ function orderByTitle(groupedData) {
       return 0;
     });
   });
+ 
   return groupedData;
 }
 function orderByPriority(groupedData) {
@@ -22,7 +24,7 @@ function orderByPriority(groupedData) {
       return b.priority - a.priority;
     });
   });
-
+  
   return groupedData;
 }
 
