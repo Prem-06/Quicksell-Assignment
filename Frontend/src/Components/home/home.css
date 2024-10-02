@@ -1,0 +1,25 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.tickets-category-container {
+    display: grid;
+    align-items: flex-start;
+    grid-auto-flow: column;
+    grid-auto-columns: 400px; 
+    gap: 10px 50px; 
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    scrollbar-width: none; 
+}
+
+@media screen and (max-width: 600px){
+    .tickets-category-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

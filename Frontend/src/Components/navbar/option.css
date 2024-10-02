@@ -1,0 +1,28 @@
+.option {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.option-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.option-container span{
+    color: #5e5959cb;
+    font-size: 18px;
+}
+
+.select {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+}

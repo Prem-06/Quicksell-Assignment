@@ -1,0 +1,7 @@
+.app{
+    min-height: 100vh;
+    height: auto;
+    width: auto;
+    overflow-x: auto;
+    background-color: hsl(220deg 37.5% 96.86%)
+}

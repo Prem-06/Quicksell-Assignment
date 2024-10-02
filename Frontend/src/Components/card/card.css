@@ -1,0 +1,104 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card-id {
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+}
+
+.profile-container {
+    position: relative;
+}
+
+.profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.active-indicator {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.card-title {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.card-title img {
+    margin-right: 8px;
+}
+
+.title {
+    font-size: large;
+    white-space: initial;
+}
+
+.card-tags {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tag_signal {
+    display: flex;
+    margin-right: 10px;
+    border:1px solid hsl(0deg 18.06% 91.35%);
+    border-radius: 5px;
+    padding: 4px 2px;
+    height: 100%;
+   
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    border:1px solid hsl(0deg 18.06% 91.35%);
+    border-radius: 5px;
+    padding: 4px 2px;
+}
+
+.tags img {
+    margin-right: 5px;
+}
+
+.tags span {
+    font-size: 18px;
+    color: #555;
+}
+
+@media screen and (max-width: 600px){
+    .card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 8px;
+        margin-bottom: 10px;
+        width: 350px;
+        
+    }
+}
