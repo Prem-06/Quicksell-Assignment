@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./navbar.css";
 import Option from "./option";
 import Display from "../../assets/pictures/icons/Display.svg";
-import Down from "../../assets/pictures/icons/Down.svg";
+import Down from "../../assets/pictures/icons/down.svg";
+
 import DisplayOption from "./option";
 const Navbar = () => {
   const [showOption, setshowOption] = useState(false);
